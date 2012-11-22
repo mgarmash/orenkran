@@ -1,33 +1,47 @@
-body{
+body {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
     background: rgba(255, 176, 111, 0.20) !important;
 }
-.wrapper{
+
+sup {
+    color: red;
+}
+
+.wrapper {
     background: #FFF;
     -webkit-box-shadow: 0 1px 15px -5px black;
     -moz-box-shadow: 0 1px 15px -5px black;
     box-shadow: 0 1px 15px -5px black;
 }
-.logo{
-    padding: 20px 0;
+
+.logo {
+    padding: 10px 10px 0;
 }
-.logo h1{
+
+.logo h1 {
     margin-bottom: 0;
 }
-.logo span{
+
+.logo span {
     font-size: 10px;
     color: #CCC;
     display: block;
     text-transform: uppercase;
 }
-.menu{
+
+.menu {
     float: right;
 }
-.menu ul li{
+
+.menu ul li {
     list-style-type: none;
     float: left;
     height: 40px;
 }
-.menu ul li a{
+
+.menu ul li a {
     display: block;
     padding-top: 25px;
     margin: 0 20px;
@@ -36,32 +50,53 @@ body{
     text-transform: uppercase;
     vertical-align: bottom;
     border-top: 5px solid transparent;
+    -o-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
-.menu ul li a:hover{
-    border-top: 5px solid #000;
+
+.menu ul li a:hover {
+    border-top: 5px solid #ccc;
 }
-.widget{
+
+.content {
+    padding: 10px;
+}
+
+.content h1 {
+    font-size: 20px;
     text-align: center;
-    padding: 20px 30px 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
-.widget span{
+
+.grid_3 p {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #666;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+span.title {
     display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
 }
-.services{
-    padding: 20px 10px;
-    background: #f5f5dc;
-}
-.prices{
-    padding: 20px 10px;
-}
-.contacts{
-    padding: 20px 10px;
-    background: #f5f5dc;
-}
-.services li, .prices li{
+
+.content ul li {
     list-style-type: none;
-    margin-left: 20px;
 }
-.map{
-    padding-top: 50px;
+
+p.help {
+    font-size: 10px;
+    padding: 10px;
+    color: #666;
 }
