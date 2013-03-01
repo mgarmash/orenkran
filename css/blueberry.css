@@ -1,0 +1,64 @@
+/*
+ * jQuery Blueberry Slider v0.4 BETA
+ * http://marktyrrell.com/labs/blueberry/
+ *
+ * Copyright (C) 2011, Mark Tyrrell <me@marktyrrell.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+.slider { margin: 0 auto; }
+.slider .slides {
+	display: block;
+	position: relative;
+}
+.slider .slides li {
+	position: absolute;
+    list-style-type: none;
+	top: 0;
+	left: 0;
+}
+.slider .slides li img {
+	display: block;
+}
+.slider .slides li.active { display: block; position: relative; }
+.slider .crop li img { width: auto; }
+
+.slider .pager {
+	height: 40px;
+	text-align: center;
+}
+.slider .pager li { display: inline-block; }
+.slider .pager li a,
+.slider .pager li a span {
+	display: block;
+	height: 4px;
+	width: 4px;
+}
+.slider .pager li a {
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+    padding: 5px;
+}
+.slider .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.slider .pager li.active a span { background: #404040; }
