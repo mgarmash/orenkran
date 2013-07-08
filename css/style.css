@@ -40,6 +40,19 @@ img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+@media handheld {
+  .content {
+    width: 90% !important;
+  }
+  nav {
+    width: 100% !important;
+  }
+  .two,
+  .one {
+    float: none;
+    width: 100%;
+  }
+}
 .pright {
   padding-right: 0;
 }
@@ -148,6 +161,36 @@ header .logo {
   box-shadow: 0 0 10px #f1f1f1;
   -moz-box-shadow: 0 0 10px #f1f1f1;
   -webkit-box-shadow: 0 0 10px #f1f1f1;
+}
+.document {
+  width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.document table {
+  border: 0;
+}
+.document table td {
+  border: 0;
+}
+.document table td:first-child {
+  width: 20%;
+}
+.document table .item ul li {
+  margin-bottom: 10px;
+}
+.document table .name {
+  font-weight: bold;
+  display: block;
+}
+.document table .description {
+  color: #27a22d;
+  font-size: 12px;
 }
 .services ol {
   padding-left: 20px;
