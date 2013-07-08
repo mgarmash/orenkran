@@ -5,30 +5,12 @@ all_images = new Array (
     "img/slides/4.jpg",
     "img/slides/5.jpg",
     "img/slides/6.jpg",
-<<<<<<< HEAD
-<<<<<<< HEAD
   //  "img/slides/7.jpg",
     "img/slides/8.jpg",
     "img/slides/9.jpg",
   //  "img/slides/10.jpg",
   //  "img/slides/11.jpg",
   //  "img/slides/12.jpg",
-=======
-//    "img/slides/7.jpg",
-    "img/slides/8.jpg",
-    "img/slides/9.jpg",
-//    "img/slides/10.jpg",
-    "img/slides/11.jpg",
-//    "img/slides/12.jpg",
->>>>>>> 2c8e143530bbb799452848d3bbfbe30594b61114
-=======
-//    "img/slides/7.jpg",
-    "img/slides/8.jpg",
-    "img/slides/9.jpg",
-//    "img/slides/10.jpg",
-    "img/slides/11.jpg",
-//    "img/slides/12.jpg",
->>>>>>> 2c8e143530bbb799452848d3bbfbe30594b61114
     "img/slides/13.jpg");
 var ImgNum = 0;
 var ImgLength = all_images.length - 1;

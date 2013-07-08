@@ -69,19 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="-1.7586207">
+            <state line="6" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="35.307693">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slideshow.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="slideshow.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/slideshow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="53" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.030303031">
               <folding />
             </state>
           </provider>
@@ -114,9 +114,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/slideshow.js" />
         <option value="$PROJECT_DIR$/prices.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/slideshow.js" />
       </list>
     </option>
   </component>
@@ -432,13 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/slideshow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="53" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prices.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="23" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
@@ -448,7 +441,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="-1.7586207">
+        <state line="6" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="35.307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/slideshow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.030303031">
           <folding />
         </state>
       </provider>
